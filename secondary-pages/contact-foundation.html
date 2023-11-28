@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" integrity="sha512-oAvZuuYVzkcTc2dH5z1ZJup5OmSQ000qlfRvuoTTiyTBjwX1faoyearj8KdMq0LgsBTHMrRuMek7s+CxF8yE+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style-foundation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Reproduction page bis</title>
+</head>
+<body class="body">
+    <header class="header pt-3 pb-3">  <!--header avec logo et barre de navigation-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3"> <!--LOGO Foundation-->
+                    <div class="logo">
+                        Foundation
+                    </div>
+                </div>
+                <div class="col-12 col-md-9"> <!--Barre de navigation-->
+                    <nav class="d-flex justify-content-start justify-content-md-end">
+                        <ul>
+                            <li>
+                                <a href="index-foundation.html" title="home">Home</a>
+                            </li>
+                            <li>
+                                <a href="index-foundation.html" title="Services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#" title="About">About</a>
+                            </li>
+                            <li>
+                                <a href="contact-foundation.html" title="Contact us">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">             <!--section contact hero-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="animate__animated animate__fadeIn animate__delay-0.5s">Contact</h1>
+                    <p class="animate__animated animate__fadeIn animate__delay-0.5s">Far far away, behind the word mountains, far from the countries Vokalia <br>and Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mainsection contactform"> <!--section formulaire-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm12 col-md-6 mb-3">
+                                <label for="votreNom" class="form-label">Nom</label>
+                                <input type="text" class="form-control" id="votreNom" placeholder="Votre nom">
+                            </div>
+                            <div class="col-sm12 col-md-6 mb-3">
+                                    <label for="votrePrenom" class="form-label">Prénom</label>
+                                    <input type="text" class="form-control" id=votrePrenom placeholder="Votre prénom">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm12 col-md-6 mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Adresse email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
+                                <div id="emailHelp" class="form-text">
+                                    Nous ne partagerons jamais votre adresse email avec personne.
+                                </div>
+                            </div>
+                            <div class="col-sm12 col-md-6 mb-3">
+                                <label class="form-label" for="phone">Numéro de téléphone</label>
+                                <input type="text" id="phone" class="form-control" placeholder="Votre numéro de téléphone">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" aria-label="With textarea" placeholder="Vous avez un message ?"></textarea>
+                        </div>
+                        <span class="btn btn-primary" onclick="verifMss()">Envoyer</span>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="mainsection feat">  <!--section slide happy customer et accordion why choose us-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6"> <!--carousel-->
+                    <h2 class="maintitle"><span>Testimonials</span>Happy Customer</h2>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators carousel-indicators-custom"> <!--les trois pins-->
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="carousel-indicator-custom-item active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" class="carousel-indicator-custom-item"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" class="carousel-indicator-custom-item"></button>
+                        </div>
+                        <div class="carousel-inner"> <!--photos et texte-->
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/person_3.jpg.webp" alt="Rob Smith">
+                            <h3>Rob Smith</h3>
+                            <h4>Product Designer at Twitter</h4>
+                            <p>“A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.”</p>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/person_2.jpg.webp" alt="John Doe">
+                            <h3>John Doe</h3>
+                            <h4>CEO, Founder</h4>
+                            <p>“A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.”</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/person_1.jpg.webp" alt="James Woodland">
+                            <h3>James Woodland</h3>
+                            <h4>Designer at Facebook</h4>
+                            <p>“A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.”</p>
+                          </div>
+                        </div>
+                        <div class="carousel-control-custom"> <!--flèches droite et gauche-->
+                            <button class="carousel-btn-custom carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span> <!--accessibilité malvoyants-->
+                            </button>
+                            <button class="carousel-btn-custom carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span> <!--accessibilité malvoyants-->
+                            </button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-6"> <!--accordion-->
+                    <h2 class="maintitle"><span>Why Us</span>Why Choose Us</h2>
+                    <div class="accordion accordion-custom" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Easily Find Logistics
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<br><br>
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed accordion-button-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Delivering Results for Industry Leaders
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<br><br>
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed accordion-button-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Fast and Secure Transportation
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<br><br>
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <footer class="footer pt-3 pb-5 pt-md-5 pb-md-5">  <!--footer avec liens et contact, etc...-->
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 col-md-4"> <!--footer première colonne-->
+               <h4>About Foundation.</h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+               <h4>Connect</h4>
+               <ul class="footer__rs">
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-dribbble"></i>
+                        </a>
+                    </li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-2"> <!--footer deuxième colonne-->
+               <h4>Links</h4>
+               <ul class="footer__list">
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-2"> <!--footer troisième colonne-->
+                <h4>Company</h4>
+                <ul class="footer__list">
+                     <li>
+                         <a href="#">About us</a>
+                     </li>
+                     <li>
+                         <a href="#">Services</a>
+                     </li>
+                     <li>
+                         <a href="#">News</a>
+                     </li>
+                     <li>
+                         <a href="#">Careers</a>
+                     </li>
+                     <li>
+                         <a href="#">Contact</a>
+                     </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4"> <!--footer quatrième colonne-->
+                <h4>Contact</h4>
+                <ul class="footer__list">
+                    <li>
+                        43 Raymouth Rd. Baltemoer, London 3910
+                    </li>
+                    <li>
+                        +1(123)-456-7890
+                    </li>
+                    <li>
+                        +1(123)-456-7890
+                    </li>
+                    <li>
+                        info@mydomain.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">                 <!--ligne copyrights-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="copyright">Copyright ©2023 All rights reserved | This template is made with <i class="bi bi-suit-heart-fill"></i> by <a href="#">Colorlib</a></p>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
