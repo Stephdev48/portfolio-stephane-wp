@@ -51,7 +51,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Hulk Hogan biography</h5>
                           <p class="card-text">A brief story about the famous catcher Hulk Hogan</p>
-                          <a href="" class="btn btn-primary">His biography</a>
+                          <a href="https://github.com/Stephdev48/biohulkhogan.git" class="btn btn-primary">His biography</a>
                         </div>
                     </div> 
                 </div>
