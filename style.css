@@ -7,11 +7,8 @@ Description: Pour me présenter
 Version: 1.0
 */
 
-
-
-
 .body{
-    background-image: url(../images/fond-eau-de-mer.jpg);
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/fond-eau-de-mer.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
