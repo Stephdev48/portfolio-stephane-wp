@@ -51,7 +51,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Hulk Hogan biography</h5>
                           <p class="card-text">A brief story about the famous catcher Hulk Hogan</p>
-                          <a href="secondary-pages/index-hh.html" class="btn btn-primary">His biography</a>
+                          <a href="" class="btn btn-primary">His biography</a>
                         </div>
                     </div> 
                 </div>
