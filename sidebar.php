@@ -61,7 +61,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Foundation</h5>
                           <p class="card-text">I'm just a dummy website... my author reproduced me for training purposes.</p>
-                          <a href="secondary-pages/index-foundation.html" class="btn btn-primary">Click here to see me</a>
+                          <a href="https://github.com/Stephdev48/bootstrap-exercice-foundation.git" class="btn btn-primary">Click here to see me</a>
                         </div>
                     </div> 
                 </div>
