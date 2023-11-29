@@ -21,7 +21,7 @@
         <div class="row">
                 <div class="col-12">
                 <ul class="header__list d-flex justify-content-start justify-content-md-center">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://localhost/wordpress/">Home</a></li>
                     <li><a href="http://localhost/wordpress/about">About me</a></li>
                     <li><a href="http://localhost/wordpress/contact">Contact</a></li>
                 </ul>

@@ -127,3 +127,44 @@ Version: 1.0
     background-position: center top;
     background-size: cover;
 }
+.contact-bg{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/fond-marbre.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.wpcf7-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wpcf7-submit{
+    margin-left: 75px;
+    border-radius: 10px;
+}
+.wpcf7-text{
+    border-radius: 10px;
+}
+.wpcf7-textarea{
+    border-radius: 10px;
+}
+.card-img{
+    max-width: 300px;
+    padding: 20px;
+}
+.img-size a{
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    max-width: 60%;
+}

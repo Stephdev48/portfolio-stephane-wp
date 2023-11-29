@@ -1,3 +1,4 @@
+<!-- About -->
 <div class="about-section">
     <?php get_header(); ?>
     <section class="section">                       <!--paragraphe de présentation-->
