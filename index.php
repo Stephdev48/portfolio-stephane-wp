@@ -16,5 +16,4 @@
     <?php endif; ?></section>
   </article>
 <?php endwhile; ?>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
