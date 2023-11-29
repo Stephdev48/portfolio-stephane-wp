@@ -9,8 +9,8 @@
                 <div class="col-12">
                     <ul class="header__list d-flex justify-content-start justify-content-md-center">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="secondary-pages/a-propos.html">About me</a></li>
-                        <li><a href="secondary-pages/contact.html">Contact</a></li>
+                        <li><a href="http://localhost/wordpress/about/(ouvre un nouvel onglet)">About me</a></li>
+                        <li><a href="http://localhost/wordpress/contact/(ouvre un nouvel onglet)">Contact</a></li>
                     </ul>
                 </div>
             </div>

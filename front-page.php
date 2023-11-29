@@ -1,3 +1,4 @@
+<div class="home-bg">
 <?php get_header(); ?>
 <?php while ( have_posts() ) : the_post(); ?>
   <article class="<?php post_class(); ?>" id="post-<?php the_ID(); ?>">
@@ -87,3 +88,4 @@
         </div>
     </section>
 <?php get_footer(); ?>
+</div>

@@ -90,3 +90,40 @@ Version: 1.0
     justify-content: end;
     color: rgb(255, 255, 255);
 }
+.pictures{
+    padding: 50px;
+}
+.pictures__pince{
+    max-width: 90%;
+    border-radius: 25px;
+}
+.pictures__archer{
+    max-width: 90%;
+    border-radius: 25px;
+}
+.section{
+    padding: 50px;
+}
+.section__title{
+    text-align: center;
+    font-size: 5em;
+}
+.section__title__bis{
+    text-align: center;
+    font-size: 2em;
+}
+.section p{
+    text-align: center;
+}
+.about-section{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/fond-nuages.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.home-bg{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/fond-eau-de-mer.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
