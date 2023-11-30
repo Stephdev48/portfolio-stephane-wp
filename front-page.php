@@ -8,7 +8,7 @@
                         <p class="about__pitch__text">
                         <?php $post = get_post(122) ?>
                         <?php echo $post->post_content ?></p>
-                        <a href="http://localhost/wordpress/about" class="btn btn-danger mt-5 about__btn">Click me !</a>
+                        <a href="http://localhost/wordpress/about" class="btn btn-danger mt-4 about__btn">Click me dang it !</a>
                     </div>
                     <div class="col-12 col-lg-6">
                         <img src="http://localhost/wordpress/wp-content/uploads/2023/11/my-mugshot.jpg" alt="mugshot" class="rounded-5 about__picture  animate__animated animate__fadeInRight animate__delay-0.5s">
@@ -20,17 +20,17 @@
         <div class="container competences__section">
             <div class="row">                   <!--titre de la section-->
                 <div class="col-12">
-                        <h2 class="competences__title">Freshly aquired skills :</h2>
+                    <h2 class="competences__title">Freshly aquired skills :</h2>
                 </div>
                 <div class="row">                      <!--liste compétences-->
                     <div class="col-12 col-md-6 d-flex justify-content-end">
-                    <?php $post = get_post(133) ?>
+                        <?php $post = get_post(133) ?>
                         <?php echo $post->post_content ?>
                     </div>
                     <div class="col-12 col-md-6">
                         <ul>
-                        <?php $post = get_post(135) ?>
-                        <?php echo $post->post_content ?>
+                            <?php $post = get_post(135) ?>
+                            <?php echo $post->post_content ?>
                         </ul>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             <img class="card-img-top" src="http://localhost/wordpress/wp-content/uploads/2023/11/tux.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Long live Opensource !</h5>
-                                <p class="card-text">I learn Linux, I use Linux, I like Linux.</p>
+                                <p class="card-text">I learn Linux, I use Linux, I like Linux,<br>period...</p>
                                 <a href="https://fr.wikipedia.org/wiki/Linux" class="btn btn-primary">My name is Tux</a>
                             </div>
                         </div> 

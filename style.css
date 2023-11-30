@@ -22,16 +22,17 @@ Version: 1.0
     font-weight: 800;
 }
 .header__list li a:hover{
-    color: rgb(0, 140, 255);
+    color: rgb(145, 166, 184);
 }
 .about{
-    padding: 70px;
+    padding: 50px;
 }
 .about_pitch{
     text-align: center;
-    background-color: rgb(240, 230, 216, 0.5);
+    background-color: rgb(240, 230, 216, 0.6);
     border-radius: 30px;
     padding: 20px;
+    height: 358px;
 }
 .about__title{
     text-align: center;
@@ -46,18 +47,17 @@ Version: 1.0
 }
 .about__btn{
     font-size: 1.5em;
-    width: 200px;
-    margin-bottom: 30px;
+    width: 250px;
 }
 .about__picture{
     max-width: 100%;
-    margin-top: 20px;
+    margin-left: 10px;
 }
 .competences{
     padding: 50px;
 }
 .competences__section{
-    background-color: rgb(240, 230, 216, 0.5);
+    background-color: rgb(240, 230, 216, 0.6);
     border-radius: 30px;
     width: 800px;
 }
@@ -78,13 +78,13 @@ Version: 1.0
 }
 .my-work__item{
     text-align: center;
-    background-color: rgb(240, 230, 216, 0.5);
+    background-color: rgb(240, 230, 216, 0.6);
     border-radius: 30px;
     padding: 10px;
 }
 .my-work__item__title{
     padding: 20px;
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-weight: 600;
 }
 .my-work__cards{
@@ -160,6 +160,7 @@ Version: 1.0
 .form{
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 .wpcf7-form{
     display: flex;
