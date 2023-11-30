@@ -1,4 +1,4 @@
-<footer class="footer">                   <!--footer-->
+<footer class="footer animate__animated animate__fadeInUp animate__delay-0.5s">                   <!--footer-->
         <div class="container">
             <div class="row">
                 <div class="col-12">
