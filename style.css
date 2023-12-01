@@ -29,7 +29,7 @@ Version: 1.0
 }
 .about_pitch{
     text-align: center;
-    background-color: rgb(240, 230, 216, 0.6);
+    background-color: rgb(240, 230, 216, 0.7);
     border-radius: 30px;
     padding: 20px;
     height: 358px;
@@ -57,7 +57,7 @@ Version: 1.0
     padding: 50px;
 }
 .competences__section{
-    background-color: rgb(240, 230, 216, 0.6);
+    background-color: rgb(240, 230, 216, 0.7);
     border-radius: 30px;
     width: 800px;
 }
@@ -78,7 +78,7 @@ Version: 1.0
 }
 .my-work__item{
     text-align: center;
-    background-color: rgb(240, 230, 216, 0.6);
+    background-color: rgb(240, 230, 216, 0.7);
     border-radius: 30px;
     padding: 10px;
 }
@@ -109,7 +109,7 @@ Version: 1.0
     color: rgb(255, 255, 255);
 }
 .paragraphe{
-    max-width: 60%;
+    max-width: 50%;
 }
 .pictures{
     padding: 50px;

@@ -5,8 +5,8 @@
         <div class="paragraphe">
             <h1 class="section__title">Hello</h1>
             <h2 class="section__title__bis">I'm Stéphane from France</h2>
-            <?php $post = get_post(138) ?>
-            <?php echo $post->post_content ?>
+                <?php $post = get_post(138) ?>
+                <?php echo $post->post_content ?>
         </div>
     </section>
     <section class="pictures">                      <!--photos-->
