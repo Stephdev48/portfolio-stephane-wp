@@ -50,7 +50,7 @@
                             <img class="card-img-top" src="http://localhost/wordpress/wp-content/uploads/2023/11/hh-header-mini.jpg" alt="Hulk Hogan mugshot">
                             <div class="card-body">
                                 <h5 class="card-title">Hulk Hogan biography</h5>
-                                <p class="card-text">A brief story about the famous catcher Hulk Hogan</p>
+                                <p class="card-text">A brief story about the famous wrestler Hulk Hogan.</p>
                                 <a href="https://github.com/Stephdev48/biohulkhogan.git" class="btn btn-primary">His biography</a>
                             </div>
                         </div> 
