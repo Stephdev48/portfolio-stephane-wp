@@ -8,10 +8,10 @@
                         <p class="about__pitch__text">
                         <?php $post = get_post(122) ?>
                         <?php echo $post->post_content ?></p>
-                        <a href="http://localhost/wordpress/about" class="btn btn-danger mt-4 about__btn">Click me dang it !</a>
+                        <a href="https://portfolios.ern-mende.fr/stephane-vincent/about" class="btn btn-danger mt-4 about__btn">Click me dang it !</a>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/11/my-mugshot.jpg" alt="mugshot" class="rounded-5 about__picture  animate__animated animate__fadeInRight animate__delay-0.5s">
+                        <img src="https://portfolios.ern-mende.fr/stephane-vincent/wp-content/uploads/sites/14/2023/12/my-mugshot-scaled.jpg" alt="mugshot" class="rounded-5 about__picture  animate__animated animate__fadeInRight animate__delay-0.5s">
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
             <div class="row my-work__cards">           <!--les trois cards...-->
                     <div class="col-12 col-md-4">
                         <div class="card card-img">
-                            <img class="card-img-top" src="http://localhost/wordpress/wp-content/uploads/2023/11/hh-header-mini.jpg" alt="Hulk Hogan mugshot">
+                            <img class="card-img-top" src="https://portfolios.ern-mende.fr/stephane-vincent/wp-content/uploads/sites/14/2023/12/hh-header-mini.jpg" alt="Hulk Hogan mugshot">
                             <div class="card-body">
                                 <h5 class="card-title">Hulk Hogan biography</h5>
                                 <p class="card-text">A brief story about the famous wrestler Hulk Hogan.</p>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="card card-img">
-                            <img class="card-img-top" src="http://localhost/wordpress/wp-content/uploads/2023/11/hero_bg_1.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="https://portfolios.ern-mende.fr/stephane-vincent/wp-content/uploads/sites/14/2023/12/hero_bg_1.webp" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Foundation</h5>
                                 <p class="card-text">I'm just a dummy website... my author reproduced me for training purposes.</p>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="card card-img">
-                            <img class="card-img-top" src="http://localhost/wordpress/wp-content/uploads/2023/11/tux.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="https://portfolios.ern-mende.fr/stephane-vincent/wp-content/uploads/sites/14/2023/12/tux.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Long live Opensource !</h5>
                                 <p class="card-text">I learn Linux, I use Linux, I like Linux,<br>period...</p>
