@@ -1,6 +1,6 @@
 <div class="home-bg">
     <?php get_header(); ?>
-    <section class="about">                         <!--mon pitch-->     
+    <section class="about">                         <!-- mon pitch -->     
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 about_pitch animate__animated animate__fadeInLeft animate__delay-0.5s">
