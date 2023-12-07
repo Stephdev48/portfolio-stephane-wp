@@ -14,7 +14,7 @@ add_theme_support( 'post-thumbnails' );
 
 
 
-  /**Nouveau CPT Vélos (exercice...) */
+  /** Nouveau CPT Vélos (exercice...) */
 function mon_cpt_velo() {
 
   $labels = array(
@@ -22,6 +22,7 @@ function mon_cpt_velo() {
     'all_items' => 'Tous les vélos',
     'singular_name' => 'Vélo',
     'add_new_item' => 'Ajouter un vélo',
+    'add_new' => 'Ajouter un vélo',
     'edit_item' => 'Modifier un vélo',
     'menu_name' => 'Vélos',
 
@@ -32,7 +33,7 @@ function mon_cpt_velo() {
     'public' => true,
     'show_in_rest' => true,
     'has_archive' => true,
-    'supports' => array( 'title', 'editor', 'thumbnail'),
+    'supports' => array('title', 'editor', 'thumbnail'),
     'menu_position' => 5,
     'menu_icon' => 'dashicons-cart',
   );
@@ -44,18 +45,20 @@ function mon_cpt_velo() {
   $labels = array(      // (Taxonomie du CPT vélos)
     'name' => 'Marque',
     'new_item_name' => 'Nom de la Marque',
+    'parent_item' => 'Marque parent',
   );
 
   $args = array(
     'labels'=> $labels,
     'public' => true,
     'show_in_rest' => true,
+    'hierarchical' => true,
   );
 
   register_taxonomy('marque_velo', 'velos', $args);
 
 }
-add_action('init', 'mon_cpt_velo')
+add_action('init', 'mon_cpt_velo');
 
   ?>
 
@@ -68,46 +71,74 @@ add_action('init', 'mon_cpt_velo')
 
 //Reproduction du CPT Apprenants
 
-// function reproduction_apprenants() {
+function apprenantsbis() {
 
-//   $labels = array(
-//     'name' => 'Vélos',
-//     'all_items' => 'Tous les vélos',
-//     'singular_name' => 'Vélo',
-//     'add_new_item' => 'Ajouter un vélo',
-//     'edit_item' => 'Modifier un vélo',
-//     'menu_name' => 'Vélos',
+  $labels = array(
+    'name' => 'ApprenantsBis',
+    'all_items' => 'Tous les apprenants',
+    'singular_name' => 'Apprenant',
+    'add_new_item' => 'Ajouter un apprenant',
+    'add_new' => 'Ajouter un apprenant',
+    'edit_item' => 'Modifier un apprenant',
+    'menu_name' => 'ApprenantsBis',
 
-//   );
+  );
 
-//   $args = array(
-//     'labels' => $labels,
-//     'public' => true,
-//     'show_in_rest' => true,
-//     'has_archive' => true,
-//     'supports' => array( 'title', 'editor', 'thumbnail'),
-//     'menu_position' => 5,
-//     'menu_icon' => 'dashicons-cart',
-//   );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'show_in_rest' => true,
+    'has_archive' => true,
+    'supports' => array( 'title', 'editor', 'thumbnail'),
+    'menu_position' => 30,
+    'menu_icon' => 'dashicons-welcome-learn-more',
+  );
 
 
-//   register_post_type('velos', $args);
+  register_post_type('apprenantsbis', $args);
 
   
-//   $labels = array(      // (Taxonomie du CPT vélos)
-//     'name' => 'Marque',
-//     'new_item_name' => 'Nom de la Marque',
-//   );
+  $labels = array(      // (Taxonomie de ApprenantsBis)
+    'name' => 'Année promo',
+    'new_item_name' => 'Année promo',
+  );
 
-//   $args = array(
-//     'labels'=> $labels,
-//     'public' => true,
-//     'show_in_rest' => true,
-//   );
+  $args = array(
+    'labels'=> $labels,
+    'public' => true,
+    'show_in_rest' => true,
+  );
 
-//   register_taxonomy('marque_velo', 'velos', $args);
+  register_taxonomy('annee_promo', 'apprenantsbis', $args);
 
-// }
-// add_action('init', 'mon_cpt_velo')
+  
+  $labels = array(
+    'name' => 'Compétences',
+    'new_item_name' => 'Compétences',
+  );
 
-//   ?>
+  $args = array(
+    'labels'=> $labels,
+    'public' => true,
+    'show_in_rest' => true,
+  );
+
+  register_taxonomy('competences', 'apprenantsbis', $args);
+
+  $labels = array(
+    'name' => 'Formation suivie',
+    'new_item_name' => 'Formation suivie',
+  );
+
+  $args = array(
+    'labels'=> $labels,
+    'public' => true,
+    'show_in_rest' => true,
+  );
+
+  register_taxonomy('formation_suivie', 'apprenantsbis', $args);
+
+}
+add_action('init', 'apprenantsbis');
+
+  ?>
